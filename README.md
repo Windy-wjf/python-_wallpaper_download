@@ -1,4 +1,4 @@
 # python-_wallpaper_download
 基于python的自动下载高清壁纸的程序
 wallpaper_download.py使用了re模块和简单的for循环完成了自动下载高清壁纸的功能，但是每个分类只能下载第一页的图片
-wallpaper_download_multipages.py则可以自主选择页数进行下载，但仍未完成
+wallpaper_download_multipages.py则可以自主选择页数进行下载，但目前未能解决该网站的反爬机制
