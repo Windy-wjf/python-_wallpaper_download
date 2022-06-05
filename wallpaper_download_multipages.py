@@ -85,7 +85,7 @@ def picdown_page(cat_page):#cat_page指的是每个分类下面的子页面的�
         u3 = []
         for j in u:
             u3.append("http://wallpaperswide.com"+j.group('url'))
-        wget.download(u3[-1], "/home/wjf/图片/test/")
+        wget.download(u3[-1], "/home/wjf/图片/test/")#在此更改下载地址
         print("\n")
 #开始根据输入的下载页数进行分类
 if num_pg == 0:
